@@ -20,6 +20,7 @@ import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
 import { provideAuth,getAuth } from '@angular/fire/auth';
 import { BannerComponent } from './components/banner/banner.component';
+import { HabilidadesComponent } from './components/habilidades/habilidades.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { BannerComponent } from './components/banner/banner.component';
     RedesSocialesComponent,
     MainComponent,
     RegisterComponent,
-    BannerComponent
+    BannerComponent,
+    HabilidadesComponent
   ],
   imports: [
     BrowserModule,
