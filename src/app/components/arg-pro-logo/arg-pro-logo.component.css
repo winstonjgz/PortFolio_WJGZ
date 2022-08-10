@@ -1,7 +1,23 @@
 
-
-#APLog{
-    width: 150px;
-    
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+
+
+#APLog{
+    
+    width:150px;
+}
+
+img{
+    margin:5px;
+    width:50px;
+
+}
+
+.btn{
+    margin: 5px;
+}

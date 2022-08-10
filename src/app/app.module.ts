@@ -22,6 +22,7 @@ import { provideAuth,getAuth } from '@angular/fire/auth';
 import { BannerComponent } from './components/banner/banner.component';
 import { HabilidadesComponent } from './components/habilidades/habilidades.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 
@@ -41,7 +42,8 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     MainComponent,
     RegisterComponent,
     BannerComponent,
-    HabilidadesComponent
+    HabilidadesComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
