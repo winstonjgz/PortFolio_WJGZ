@@ -106,5 +106,8 @@
       }
     }
   },
-  "defaultProject": "Portfolio_WJGZ"
+  "defaultProject": "Portfolio_WJGZ",
+  "cli": {
+    "analytics": false
+  }
 }
