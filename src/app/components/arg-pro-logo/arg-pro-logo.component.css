@@ -28,3 +28,7 @@ img{
 #GitLink{
     justify-items: right;
 }
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+  }
