@@ -1,9 +1,4 @@
 
-.container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 
 
@@ -20,4 +15,16 @@ img{
 
 .btn{
     margin: 5px;
+}
+
+#logInsta{
+    justify-items: right;
+}
+
+#logLink{
+    justify-items: right;
+}
+
+#GitLink{
+    justify-items: right;
 }
